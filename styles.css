@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(27, 26, 26);
+  color: #fff;
+  font-family: system-ui;
+}
+.add {
+  width: 80%;
+  margin: auto;
+}
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: non;
+  background-color: #111;
+  margin: 7px 0;
+  border-radius: 7px;
+  padding: 10px;
+  color: #fff;
+}
+input:focus {
+  background-color: #000;
+  transform: scale(1.1);
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(30, 1, 54);
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.5s;
+  position: relative;
+  left: 25%;
+}
+button:hover {
+  letter-spacing: 5px;
+  background-color: rgb(92, 4, 165);
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+table th {
+  text-transform: uppercase;
+  padding: 5px;
+}
+table tbody td,
+button {
+  text-transform: capitalize;
+  padding: 5px;
+}
