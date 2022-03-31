@@ -9,6 +9,13 @@ var myarray = [];
     show();
 });
 
+// OR 
+
+// btn.onclick = function(){
+//     myarray.push(input.value);
+//     show();  
+// }
+
 function show(){
     let table = '';
 for(var i =0 ; i<myarray.length ; i++){
